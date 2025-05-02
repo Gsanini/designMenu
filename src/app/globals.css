@@ -19,6 +19,7 @@
   --color-frog: #17876d;
   --color-mint: #2fa98c;
   --color-greenWhite: #daf1de;
+  --color-grayIcon: #adadad;
 }
 
 @theme {
@@ -40,10 +41,5 @@
   --color-frog: #17876d;
   --color-mint: #2fa98c;
   --color-greenWhite: "#daf1de";
-}
-body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: var(--font-sans);
+  --color-grayIcon: #adadad;
 }
