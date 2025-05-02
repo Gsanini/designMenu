@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <div className="h-screen w-full bg-dark-green flex relative">
       <NavMenu />
-      <div className="bg-offWhite w-full h-[calc(100%-10px)] overflow-auto rounded-tl-[35px] mt-[10px] p-7">
+      <div className="bg-offWhite w-full h-[calc(100%-10px)] overflow-x-auto overflow-y-hidden rounded-tl-[35px] mt-[10px] p-7 z-2">
         <UserMenu children={children} />
       </div>
     </div>
